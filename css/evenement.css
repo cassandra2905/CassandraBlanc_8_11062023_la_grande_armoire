@@ -1,0 +1,179 @@
+#container-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.our-idea {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+    box-sizing: content-box;
+}
+
+.our-idea .image img {
+    min-width: 10rem;
+    max-width: 100%;
+}
+
+.our-idea .text {
+    width: 35%;
+    padding-right: 2rem;
+}
+
+.our-idea .text h2 {
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+.our-idea .text p {
+    text-align: justify;
+    box-sizing: content-box;
+}
+
+.our-project {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: content-box;
+    padding: 2rem;
+}
+
+.our-project .image img {
+    min-width: 15rem;
+    max-width: 100%;
+}
+
+.our-project .text {
+    color: white;
+    width: 35%;
+    padding-right: 2rem;
+}
+
+.our-project .text h2 {
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+.container-our-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.benefits {
+    width: 15rem;
+}
+
+.benefits img {
+    width: 100%;
+}
+
+.benefits p {
+    margin: 2rem 0 4rem 0;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.container-our-products h2 {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hashtag {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#container-collection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#container-collection .image-collection {
+    flex: 1;
+    height: 28rem;
+    background-size: cover;
+    background-position: center;
+    min-width: 10rem;
+}
+
+.collection1 {
+    background-image: url("../img/collection_1.png");
+}
+
+.collection2 {
+    background-image: url("../img/collection_2.png");
+}
+
+.collection3 {
+    background-image: url("../img/collection_3.png");
+}
+
+.see-you-on-instagram {
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.container-button-instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0 4rem 0;
+}
+
+@media only screen and (max-width: 950px) {
+    .our-idea {
+      flex-wrap: wrap;
+      margin: 1rem;
+      max-width: 100%;
+    }
+
+    .our-idea .text {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .our-project .text {
+        width: 100%;
+        padding-right: 0;
+        text-align: justify;
+    }
+
+    .our-project {
+        flex-wrap: wrap-reverse;
+    }
+
+    .our-idea {
+        max-width: 90%;
+    }
+
+    .our-idea .text h2 {
+        padding: 1rem 0 0.5rem 0;
+    }
+
+    .our-project .text h2 {
+        padding: 1rem 0 0.5rem 0;
+    }
+
+
+    #container-collection .image-collection {
+        min-width: 100%;
+    }
+
+    
+}

@@ -1,0 +1,269 @@
+.container-banner {
+    background-image: url("../img/banniere_ouverture.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 115vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-banner {
+    background-color: black;
+    padding: 0.3rem 2rem;
+    color: white;
+    border: none;
+    margin-top: 108vh;
+    font-size: 1.1rem;
+}
+
+#our-story {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+    box-sizing: content-box;
+    max-width: 100%;
+
+}
+
+#our-story .text {
+    width: 35%;
+    padding-right: 2rem;
+}
+
+#our-story .text h2 {
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+#our-story .text p {
+    text-align: justify;
+    box-sizing: content-box;
+}
+
+.image {
+    padding: 3rem 0;
+}
+
+.our-project {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: content-box;
+    max-width: 100%;
+    padding: 2rem;
+}
+
+.our-project .text {
+    color: white;
+    width: 35%;
+    padding-left: 2rem;
+}
+
+.our-project .text h2 {
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+.our-project .text p {
+    text-align: justify;
+    box-sizing: content-box;
+}
+
+.reviews {
+    padding: 4rem 0;
+}
+
+.reviews>h2 {
+    text-align: center;
+}
+
+.experience>h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.container-procedure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.container-procedure h2 {
+    text-align: center;
+}
+
+.container-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-procedure {
+    background-color: black;
+    padding: 0.5rem 2rem;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.buyer-area p,
+li {
+    padding-bottom: 1rem;
+}
+
+.buyer-area {
+    padding: 2rem;
+    width: 28vw;
+    border-right: 1px solid black;
+}
+
+.seller-area {
+    padding: 2rem;
+    width: 28vw;
+}
+
+
+.seller-area .button-procedure {
+    margin-top: 1rem;
+}
+
+.fashion-story {
+    background-color: black;
+    padding: 2rem;
+}
+
+.fashion-story>h2 {
+    color: white;
+    text-align: center;
+}
+
+.container-articles>.articles {
+    background-color: white;
+    margin: 1rem;
+    padding: 0.5rem;
+    text-align: justify;
+    width: 30%;
+}
+
+.container-articles {
+    display: flex;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.articles p {
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.articles h2 {
+    font-size: 1.2rem;
+}
+
+.articles img {
+    object-fit: cover;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.button-articles {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.articles .date {
+    font-size: 0.8rem;
+    color: #AAA8A8;
+    padding-top: 2rem;
+}
+
+@media only screen and (max-width: 950px) {
+    #our-story {
+       flex-wrap: wrap-reverse;
+       max-width: 100%;
+       margin: 1rem;
+    }
+
+    #our-story .text {
+        width: 100%;
+        padding: 0;
+    }
+
+    #our-story .image img {
+        padding: 0;
+        max-width: 100%;
+    }
+
+    #our-story .text h2 {
+        padding: 0;
+    }
+
+    .image {
+        padding: 0;
+    }
+
+    .our-project .image img {
+        max-width: 100%;
+    }
+
+    .our-project .image {
+        padding: 0;
+    }
+
+
+    .our-project {
+        flex-wrap: wrap;
+        padding: 0;
+        padding: 1rem;
+    }
+
+    .our-project .text {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .our-project .text h2 {
+        padding: 0;
+    }
+
+    .container-procedure {
+        flex-wrap: wrap;
+    }
+
+    .buyer-area, .seller-area {
+        width: 90%;
+        border: unset;
+    }
+
+    .container-articles {
+        flex-wrap: wrap;
+    }
+
+    .articles {
+        min-width: 90%;
+    }
+
+    
+    .fashion-story {
+        padding: 1rem;
+    }
+
+    .container-articles .articles {
+        margin: 0 0 1rem 0;
+        width: 100%;
+    }
+}
+

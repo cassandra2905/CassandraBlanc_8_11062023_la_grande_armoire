@@ -1,0 +1,103 @@
+body {
+    font-family: "Montserrat";
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    min-height: 5rem;
+    max-width: 100%;
+}
+
+header .logo {
+    height: 6rem;
+    box-shadow: 0 0 1px grey;
+    margin-left: 8vw;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding-bottom: 0.8rem;
+    margin-right: 4vw;
+}
+
+.menu nav {
+    height: 100%;
+}
+
+.menu nav ul {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.menu nav ul li {
+    display: flex;
+    align-items: end;
+    padding: 0;
+}
+
+.menu nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0.4rem 0.5rem;
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+}
+
+.menu .search {
+    color: white;
+    margin: 0.2rem 0.6rem;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.menu .search i {
+    color: black;
+    margin: 0 0.3rem;
+}
+
+.menu .search input {
+    border: 0;
+    border-radius: 5px;
+    padding: 0.3rem 0;
+}
+
+.menu .msgLogged {
+    cursor: default;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 950px) {
+    header {
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+
+    header .logo {
+        margin-left: 0;
+    }
+
+    .menu {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .menu nav ul {
+        justify-content: center;
+    }
+}

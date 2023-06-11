@@ -1,0 +1,179 @@
+#background-buyer {
+    background-image: url("./img/video-acheteur.mp4");
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-text-buyer {
+    text-align: center;
+}
+
+.block-text-buyer > h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 2rem 0;
+
+}
+
+.button-contact-us {
+    background-color: black;
+    padding: 0.5rem 2rem;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.title-suscribe {
+    font-weight: 500;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+}
+
+.container-form {
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+}
+
+.container-form-inscription-popup {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.container-form-inscription-popup > p {
+    max-width: 50%;
+    margin: auto;
+}
+
+.container-background-image-form {
+    background-image: url(../img/acheteur.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 50%;
+    min-height: 85vh;
+}
+
+.container-form-inscription-popup > h2 {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.container-form-inscription-popup > p {
+   text-align: center;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    margin : 1rem;
+}
+
+.newsletter input {
+    padding-top : 0.5rem;
+    flex: 1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.container-button-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.contact-us {
+    font-size: 1rem;
+    background-color: black;
+    padding: 0.5rem 2rem;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.container-form-inscription-popup p {
+    padding: 0 0 3rem 0;
+}
+
+.hashtag {
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#container-collection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#container-collection .image-collection {
+    flex: 1;
+    height: 28rem;
+    background-size: cover;
+    background-position: center;
+    min-width: 10rem;
+}
+
+.collection1 {
+    background-image: url("../img/collection_1.png");
+}
+
+.collection2 {
+    background-image: url("../img/collection_2.png");
+}
+
+.collection3 {
+    background-image: url("../img/collection_3.png");
+}
+
+.see-you-on-instagram {
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.container-button-instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0 4rem 0;
+}
+
+@media only screen and (max-width: 950px) {
+    .container-form {
+        flex-wrap: wrap;
+    }
+
+    .container-form-inscription-popup {
+        margin-top : 0.5rem;
+    }
+
+    #container-collection .image-collection {
+        min-width: 100%;
+    }
+
+    .container-form-inscription-popup > p {
+        max-width: 100%;
+    }
+
+    .container-background-image-form {
+        margin: 0.5rem;
+        width: 100%;
+    }
+
+    .container-form-inscription-popup {
+        margin: 0.5rem;
+    } 
+
+}

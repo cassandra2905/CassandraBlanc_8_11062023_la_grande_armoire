@@ -1,0 +1,245 @@
+.container-title-article h2,
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-title-article p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.container-title-article h2 {
+    font-size: 2rem;
+}
+
+.container-title-article {
+    padding-top: 2rem;
+}
+
+.container-img-tricks {
+    background-image: url("../img/img_astuces.png");
+    height: 35rem;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+}
+
+.intro {
+    padding: 4rem 0 0 0;
+    margin: auto;
+    max-width: 61%;
+}
+
+.container-tips {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 4rem;
+
+
+}
+
+.container-image {
+    height: 10rem;
+    background-size: cover;
+    background-position: center;
+    min-width: 10rem;
+    margin-right: 2rem;
+}
+
+.container-text>h3,
+p {
+    text-align: left;
+}
+
+.img1 {
+    background-image: url("../img/sac.png");
+}
+
+.img2 {
+    background-image: url("../img/materiaux.png");
+}
+
+.img3 {
+    background-image: url("../img/restauration.png");
+}
+
+.img4 {
+    background-image: url("../img/chanel2.png");
+}
+
+.img5 {
+    background-image: url("../img/couture.png");
+}
+
+.img6 {
+    background-image: url("../img/experts.png");
+}
+
+.restoration-summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restoration-summary>p {
+    max-width: 70%;
+    text-align: center;
+}
+
+.follow-us .social-networks {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.follow-us {
+    padding: 2rem 6rem;
+    background-color: #E6D8CC;
+    max-width: 70%;
+}
+
+.contain-follow-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.follow-us nav ul a {
+    color: white;
+}
+
+
+.follow-us nav ul li {
+    list-style: none;
+}
+
+.social-networks ul {
+    margin: 0;
+}
+
+.fashion-story {
+    background-color: black;
+    padding: 2rem;
+}
+
+.fashion-story>h2 {
+    color: white;
+    text-align: center;
+}
+
+.container-articles>.articles {
+    background-color: white;
+    margin: 1rem;
+    padding: 0.5rem;
+    text-align: justify;
+    width: 30%;
+}
+
+.container-articles {
+    display: flex;
+    min-width: 100%;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.articles p {
+    box-sizing: content-box;
+    justify-content: left;
+    width: 100%;
+}
+
+.articles h2 {
+    font-size: 1.2rem;
+}
+
+.articles img {
+    object-fit: cover;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.button-articles {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.articles .date {
+    font-size: 0.8rem;
+    color: #AAA8A8;
+    padding-top: 2rem;
+    justify-content: left;
+}
+
+.container-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 950px) {
+    .container-tips {
+        flex-wrap: wrap;
+    }
+
+    /*inverser l'orientation des image une fois sur 2*/
+    .container-tips:nth-child(even) {
+        flex-wrap: wrap-reverse;
+    }
+
+    .container-text>h3, p {
+        text-align: center;
+    }
+
+    .container-articles{
+        flex-wrap: wrap;
+    }
+
+    .container-image{
+        margin-right: 0;
+    }
+
+    .intro p {
+        text-align: justify;
+        padding: 1rem;
+    } 
+
+    .container-articles > .articles {
+        flex: 1;
+        min-width: 80%;
+    }
+
+    
+    .container-title-article h2 {
+        text-align: center;
+    }
+
+    .follow-us {
+        background-color: transparent;
+    }
+
+    .follow-us nav ul a {
+        color: black;
+    }
+
+    .paragraph-article {
+        text-align: left;
+    }
+
+}

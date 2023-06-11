@@ -1,0 +1,227 @@
+.background-image-about {
+    background-image: url("../img/about_us.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 115vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, .about-us, .our-storie-title {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+
+.about-us {
+    font-size: 2rem;
+}
+
+.container-who-are-we {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 3rem;
+    margin-bottom: 4rem;
+}
+
+.our-storie-title {
+    padding : 2rem 0;
+    font-size: 2rem;
+}
+
+.backgroud-image-storie {
+    background-image: url("../img/histoire.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10rem;
+    min-width: 40rem;
+    min-height: 85vh;
+}
+
+.container-who-are-we > .block-text {
+    margin: 0 2rem;
+    width: 35%;
+    text-align: justify;
+}
+
+.block-text > h3 {
+    text-align: center;
+}
+
+.container-our-concept {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+    background-color: black;
+}
+
+.backgroud-image-concept {
+    background-image: url("../img/concept.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10rem;
+    min-width: 40rem;
+    min-height: 85vh;
+}
+
+.container-our-concept > .block-text {
+    margin: 0 2rem;
+    width: 35%;
+    text-align: justify;
+    color: white;
+}
+
+#container-our-engagements {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 3rem;
+    padding-top : 6rem;
+    padding-bottom: 3rem;
+}
+
+.backgroud-image-engagements {
+    background-image: url("../img/controle-qualite.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 40%;
+    min-height: 85vh;
+}
+
+#container-our-engagements > .block-text {
+    margin: 0 2rem;
+    width: 35%;
+    text-align: justify;
+}
+
+.fashion-story {
+    background-color: black;
+    padding: 2rem;
+}
+
+.fashion-story>h2 {
+    color: white;
+    text-align: center;
+}
+
+.container-articles>.articles {
+    background-color: white;
+    margin: 1rem;
+    padding: 0.5rem;
+    text-align: justify;
+    width: 30%;
+}
+
+.container-articles {
+    display: flex;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.articles p {
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.articles h2 {
+    font-size: 1.2rem;
+}
+
+.articles img {
+    object-fit: cover;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.button-articles {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.container-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.articles .date {
+    font-size: 0.8rem;
+    color: #AAA8A8;
+    padding-top: 2rem;
+}
+
+@media only screen and (max-width: 950px) {
+   
+    .container-who-are-we {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .container-who-are-we .backgroud-image-storie {
+       min-width: 90%;
+    }
+
+    .container-who-are-we .block-text {
+        min-width: 90%; 
+    }
+    
+    .container-articles {
+       flex-wrap: wrap;
+       margin : 0;
+    }
+
+    .articles {
+        min-width: 90%;
+    }
+
+    .container-our-concept {
+        flex-wrap: wrap-reverse;
+        padding: 1rem 0 0 0;
+    }
+
+    .container-our-concept .block-text {
+        min-width: 90%;
+    }
+
+    .container-our-concept .backgroud-image-concept {
+        min-width: 90%;
+    }
+
+    #container-our-engagements {
+        flex-wrap: wrap;
+        padding: 1rem 0 0 0;
+    }
+
+    #container-our-engagements .backgroud-image-engagements {
+        min-width: 90%;
+    }
+
+    #container-our-engagements .block-text {
+        min-width: 90%;
+    }
+
+    .fashion-story {
+        padding: 1rem;
+    }
+
+    .container-articles .articles {
+        margin: 0 0 1rem 0;
+        width: 100%;
+    }
+}

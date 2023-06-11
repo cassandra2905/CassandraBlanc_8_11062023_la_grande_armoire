@@ -1,0 +1,189 @@
+.contact-us {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.form-contact-us {
+    border: 1px solid black;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 80%;
+}
+
+
+.bloc-containers-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem 0 0 0;
+}
+
+.bloc-containers-form .container-input-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 1rem;
+}
+
+.container-input-form-text-area {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 1rem;
+}
+
+.bloc-containers-form .container-input-form, 
+.container-input-form-text-area, 
+.bloc-button-send {
+    padding: 0 2rem;
+}
+
+.bloc-button-send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.send-button {
+    background-color: black;
+    padding: 0.5rem 4rem;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.container-input-form-text-area textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.container-input-form input, select {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 3rem;
+}
+
+.container-social-networks-newsletter {
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+
+}
+
+.container-social-networks-newsletter > .follow, .newsletter {
+    padding: 1rem;
+}
+
+.follow, .newsletter h3 {
+    text-align: center;
+}
+
+.newsletter p {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.follow p {
+    padding: 0 0 2rem 0;
+    font-size: 0.8rem;
+}
+
+.container-social-networks-newsletter > .follow, .newsletter {
+    max-width: 20rem;
+
+}
+
+.container-social-networks-newsletter > .follow {
+    color: white; 
+    background-color: black;
+}
+
+.container-social-networks-newsletter > .newsletter {
+    border: 1px solid black;
+}
+
+
+.follow .social-networks {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.follow .social-networks a {  
+    color: white;
+    padding: 0.5rem;
+}
+
+.newsletter .container-civility {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: auto;   
+    padding: 1rem 0 2rem 0;
+}
+
+.newsletter .container-mail > input {
+   min-width: 100%;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}
+
+@media only screen and (max-width: 950px) {
+
+    .container-social-networks-newsletter {
+       flex-wrap: wrap-reverse;
+       margin: auto;
+    }
+
+    .follow {
+       min-width: 80%;
+    }
+
+    .newsletter {
+        min-width: 80%;
+    }
+
+    .container-social-networks-newsletter > .follow, .newsletter {
+        padding: 1rem;
+    }
+
+    .container-social-networks-newsletter .follow {
+        margin-top: 1rem;
+        color: black;
+        background-color: white;
+        border: 1px solid black;
+    }
+
+    .follow .social-networks a {  
+        color: black;
+    }
+
+    .bloc-containers-form {
+        flex-wrap: wrap;
+    }
+
+    .container-input-form {
+        width: 100%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+

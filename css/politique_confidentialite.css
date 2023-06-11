@@ -1,0 +1,22 @@
+h2, h3, .introductory-sentence {
+    text-align: center;
+}
+ 
+ h2 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+ 
+
+h3 {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.container-privacy-policy-paragraph > p {
+    text-align: justify;
+}
+
+.container-privacy-policy-paragraph {
+    margin: 5rem  3rem 8rem 3rem;
+}

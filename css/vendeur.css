@@ -1,0 +1,270 @@
+.title-seller {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.block-text-seller {
+    text-align: center;
+} 
+
+.section-title {
+    font-size: 1.6rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.block-text-seller > li {
+    list-style: none;
+}
+
+.block-text-seller > li a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.7rem;
+}
+
+.container-process {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 2rem;
+}
+
+.container-process p {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.process1, .process2, .process3 {
+    flex: 1;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+    min-width: 29rem;
+} 
+
+.process1 {
+    background-image: url("../img/deposer_articles.png");
+}
+
+.process2 {
+    background-image: url("../img/experts.png");
+}
+
+.process3 {
+    background-image: url("../img/sell_you_parts.png");
+}
+
+#tuto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.background-image-seller {
+    background-image: url("../img/how_to_do.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35rem;
+    min-width: 10rem;
+    min-height: 85vh;
+}
+
+.container-steps-seller {
+    width: 30%;
+    text-align: justify;
+}
+
+.steps-seller {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.steps-seller>li {
+    padding-bottom: 3rem;
+    min-width: 10rem;
+}
+
+.button-register {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+}
+
+.container-steps-seller .register {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-engagements {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem; 
+}
+
+.background-image-engagements {
+    background-image: url("../img/our_engagements.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35rem;
+    min-width: 10rem;
+    min-height: 85vh;
+}
+
+.all-engagements {
+    margin: 0 2rem;
+    width: 30%;
+    text-align: justify;
+}
+
+.engagements > li {
+    padding-bottom: 3rem;
+}
+
+.button-engagements {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+}
+
+.all-engagements .about-engagements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-our-sales {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container-sales > .piece {
+    flex: 1;
+    height: 12rem;
+    background-size: cover;
+    background-position: center;
+    width: 12rem;
+}
+
+.img1 {
+    background-image: url("../img/echarpe_burberry.png");
+}
+
+.img2 {
+    background-image: url("../img/sac_a_main_chloe.png");
+}
+
+.img3 {
+    background-image: url("../img/tennis_chanel.png");
+}
+
+.container-sales > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.button-our-pieces {
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container-button-our-pieces {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0 6rem 0;
+    
+}
+
+@media only screen and (max-width: 950px) {
+    .container-process {
+       flex-wrap: wrap;
+    }
+
+    .container-steps {
+        width: 100%;
+    }
+
+    #tuto {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .background-image-seller, .background-image-engagements{
+       width: 92vw;
+    }
+
+    .container-our-sales {
+        flex-wrap: wrap;
+    }
+
+    .container-steps-seller {
+        width: 90%;
+        
+    }
+
+    .steps-seller {
+        padding-left: 1rem;
+        border: 1px solid black;
+    }
+
+    .steps-seller li{
+        margin: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .our-engagements {
+        flex-wrap: wrap-reverse;
+        padding: 0;
+    }
+
+    .all-engagements {
+        width: 90%;
+        margin: 0;
+    }
+
+    .engagements {
+        padding: 0;
+        border: 1px solid black; 
+        min-width: 100%;
+    }
+
+    .engagements li {
+        margin: 1.5rem;
+        padding-bottom: 0;
+    }
+
+    .steps {
+        min-width: 100%;
+    }
+
+    .container-sales > p {
+        padding-top: 0;
+        padding-bottom: 1rem;
+    }
+
+    .container-sales> .piece {
+        width: 80vw;
+    }
+
+    .seller br {
+        display: none;
+    }
+
+    
+}

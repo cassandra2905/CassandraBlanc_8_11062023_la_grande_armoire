@@ -1,0 +1,113 @@
+.account {
+    text-align: center;
+    font-weight: 500;
+    padding: 3rem 0;
+    font-size: 3rem;
+}
+
+.container-button-account {
+    display: flex;
+    border: 1px;
+    justify-content: space-around;
+    max-width: 30%;
+    margin: auto;
+}
+
+.container-button-account button {
+    border: none;
+    background-color: unset;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.contain-specialized {
+    text-align: center;
+    padding: 0 0 2rem 0;
+}
+
+.container-check-categorie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 0 2rem 0;
+}
+.container-input .inputs {
+    padding-bottom: 2rem;
+    flex: 1;
+}
+
+#create-an-account {
+    margin: auto;
+    max-width: 60%;
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.container-input .inputs {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.container-input .inputs input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.container-input .inputs input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border: 1px solid black;
+}
+
+.container-input .inputs input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.container-button-connexion {
+    padding: 3rem  0 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn {
+    background-color: black;
+    padding: 0.5rem 4rem;
+    color: white;
+    border: none;
+    
+}
+
+#connexion {
+    margin: auto;
+    max-width: 60%;
+    display: block;
+}
+
+@media only screen and (max-width: 950px) {
+    .container-button-account {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container-button-account #create-account {
+        white-space: nowrap;
+    }
+
+    .container-check-categorie {
+        margin: 0;
+    }
+
+}
+
+
+
