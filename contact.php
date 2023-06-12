@@ -21,44 +21,49 @@
     <?php require_once('./partials/header.php'); ?>
     <main>
         <h2 class="contact-us">Contactez-nous</h2>
+        <?php if (!empty($_SESSION['success_contact'])) {?>
+            <p class="success_confirmation"><?= $_SESSION['success_contact'] ?></p>
+        <?php 
+        $_SESSION['success_contact'] = "";
+        } ?>
 
-        <form class="form-contact-us" method="get" action="">
+        <form class="form-contact-us" method="post" action="./form/contact.php">
 
             <div class="bloc-containers-form">
 
                 <div class="container-input-form">
                     <label for="civility">*Civilité</label><br>
-                    <select name="civility" id="civility">
-                        <option value="femme">Femme</option>
-                        <option value="homme">Homme</option>
+                    <select name="civility" id="civility" required>
+                        <option value="F">Femme</option>
+                        <option value="H">Homme</option>
                     </select>
     
                     <label for="nom">*Nom :</label>
-                    <input type="text" name="nom" id="nom" size="30" maxlength="20">
+                    <input type="text" name="nom" id="nom" size="30" maxlength="20" required>
         
                     <label for="country">*Pays :</label><br>
-                    <select name="country" id="country">
+                    <select name="country" id="country" required>
                         <option value="france">France</option>
                     </select>
         
                     <label for="email">*E-mail :</label>
-                    <input type="email" id="email" placeholder="monmail@mail" required>
+                    <input type="email" name="email" id="email" placeholder="monmail@mail" required>
                 </div>
     
                 <div class="container-input-form">
                     <label for="prenom">*Prénom :</label>
-                    <input type="text" name="prenom" id="prenom" size="30" maxlength="20">
+                    <input type="text" name="prenom" id="prenom" size="30" maxlength="20" required>
         
                     <label for="telephone">Téléphone :</label>
-                    <input type="tel" id="telephone" name="telephone">
+                    <input type="tel" id="telephone" name="telephone" required>
         
                 </div>
 
             </div>
 
             <div class="container-input-form-text-area">
-                <label for="demande">*Votre demande :</label><br>
-                <textarea name="demande" id="demande"></textarea>
+                <label for="demande">*Votre demande :</label>
+                <textarea name="demande" id="demande" required></textarea>
             </div>
 
             <div class="bloc-button-send">

@@ -37,6 +37,11 @@ nav ul {
     display: flex;
     margin-top: 0;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social-title {
+    text-align: center;
 }
 
 nav h4 {

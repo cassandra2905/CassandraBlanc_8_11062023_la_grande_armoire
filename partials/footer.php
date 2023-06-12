@@ -25,7 +25,7 @@
                 </nav>
                 <nav class="social">
                     <ul>
-                        <li><a href="http://localhost/la_grande_armoire/evenement">Evenement</a></li></li>
+                        <li class="social-title"><a href="http://localhost/la_grande_armoire/evenement">Evenement</a></li></li>
                     </ul>
                     <ul class="social-network">
                         <li>
