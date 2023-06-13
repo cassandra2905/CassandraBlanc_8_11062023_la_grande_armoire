@@ -39,17 +39,17 @@
             <p class="contain-specialized">Créez votre compte et découvrez un contenu spécialisé <br> pour vous</p>
             <div class="container-input">
                 <div class="inputs">
-                    <label for="email">E-mail</label><br>
+                    <label for="email">*E-mail</label><br>
                     <input type="email" id="email" name="email" placeholder="ex : nom.prenom@gmail.com" required>
                 </div>
 
                 <div class="inputs">
-                    <label for="nom">Nom</label><br>
+                    <label for="nom">*Nom</label><br>
                     <input type="text" id="nom" name="nom" required>
                 </div>
 
                 <div class="inputs">
-                    <label for="prenom">Prénom</label><br>
+                    <label for="prenom">*Prénom</label><br>
                     <input type="text" id="prenom" name="prenom" required>
                 </div>
     
@@ -65,7 +65,7 @@
 
             <div class="container-input">
                 <div class="inputs">
-                    <label for="password">Mot de passe</label>
+                    <label for="password">*Mot de passe</label>
                     <input type="password" id="password" name="password" required>
                 </div>
 
@@ -87,12 +87,12 @@
                 <p class="contain-specialized">Connectez vous pour accéder à votre contenu spécialisé</p>
                 
                 <div class="inputs">
-                    <label for="email">E-mail</label>
+                    <label for="email">*E-mail</label>
                     <input type="email" id="email" name="email" placeholder="ex : nom.prenom@gmail.com" required>
                 </div>
 
                 <div class="inputs">
-                    <label for="password">Mot de passe</label>
+                    <label for="password">*Mot de passe</label>
                     <input type="password" id="password" name="password" required>
                 </div>
 

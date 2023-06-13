@@ -54,7 +54,7 @@
                     <label for="prenom">*Prénom :</label>
                     <input type="text" name="prenom" id="prenom" size="30" maxlength="20" required>
         
-                    <label for="telephone">Téléphone :</label>
+                    <label for="telephone">*Téléphone :</label>
                     <input type="tel" id="telephone" name="telephone" required>
         
                 </div>
