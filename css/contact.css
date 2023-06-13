@@ -10,6 +10,12 @@
     max-width: 80%;
 }
 
+.success_confirmation {
+    color: green;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
 
 .bloc-containers-form{
     display: flex;

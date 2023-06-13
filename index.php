@@ -48,8 +48,52 @@
         <section class="reviews">
             <h2>Vos avis comptent pour<br> nous !</h2>
         </section>
-        <div>
-            <!---Slider---->
+        <div class="container-reviews-customer">
+
+            <div class="reviews-customer">
+                <div class="container-img-reviews">
+                    <img src="./img/laurie_berger.png" alt="Laurie berger vendeuse">
+                </div>
+                <h3 class="customer">Laurie Berger</h3>
+                <h4>VENDEUSE</h4>
+                <p class="review">Super expérience à leurs cotés, j’ai vendu trois sac et je suis ravie !</p>
+            </div>
+
+            <div class="reviews-customer">
+                <div class="container-img-reviews">
+                    <img src="./img/marie_deschamps.png" alt="Marie Deschamps acheteuse">
+                </div>
+                <h3 class="customer">Marie Deschamps</h3>
+                <h4>ACHETEUSE</h4>
+                <p class="review">J’ai éffectué de nombreux achats et j’ai vecu une superbe expérience ! Une équipe dinamique et à l’écoute ! Je recommande le pop-up !</p>
+            </div>
+
+            <div class="reviews-customer">
+                <div class="container-img-reviews">
+                    <img src="./img/pauline_lucien.png" alt="Pauline Lucien acheteuse">
+                </div>
+                <h3 class="customer">Pauline Lucien</h3>
+                <h4>ACHETEUSE</h4>
+                <p class="review">Un concept unique et merveilleux, des pièces de qualité et un service au top.</p>
+            </div>
+
+            <div class="reviews-customer">
+                <div class="container-img-reviews">
+                    <img src="./img/paul_dupuis.png" alt="Paul Dupuis vendeur">
+                </div>
+                <h3 class="customer">Paul Dupuis</h3>
+                <h4>VENDEUR</h4>
+                <p class="review">Equipe au top, vétêment vendu en trois jours !</p>
+            </div>
+
+            <div class="reviews-customer">
+                <div class="container-img-reviews">
+                    <img src="./img/jerome_tellier.png" alt="Jerôme Tellier acheteur">
+                </div>
+                <h3 class="customer">Jerôme Tellier</h3>
+                <h4>ACHETEUR</h4>
+                <p class="review">Le lieux des bonnes affaires, foncez !</p>
+            </div>
         </div>
         <section class="experience">
             <h2>Rejoignez l'expérience<br> La grande Armoire</h2>

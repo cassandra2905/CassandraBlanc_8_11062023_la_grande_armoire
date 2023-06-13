@@ -82,7 +82,6 @@
 
 .experience>h2 {
     text-align: center;
-    padding-bottom: 2rem;
 }
 
 .container-procedure {
@@ -190,6 +189,46 @@ li {
     padding-top: 2rem;
 }
 
+.container-reviews-customer {
+    background-image: url("../img/banner_reviews.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.78;
+    margin-bottom: 3rem;
+}
+
+.container-reviews-customer .customer, h4, .review {
+    color: white;
+}
+
+.reviews-customer .review {
+    text-align: center;
+}
+
+.reviews-customer {
+    flex: 1;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.reviews-customer > .customer, h4 {
+    text-align: center;
+}
+
+.reviews-customer img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-img-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 950px) {
     
     .container-banner {
@@ -270,6 +309,20 @@ li {
     .container-articles .articles {
         margin: 0 0 1rem 0;
         width: 100%;
+    }
+
+    .container-reviews-customer {
+       flex-wrap: wrap;
+    }
+
+    .reviews-customer {
+        min-width: 90%;
+        padding: 0;
+        margin: 0.5rem;
+    }
+
+    .reviews-customer .review {
+        text-align: center;
     }
 }
 

@@ -27,18 +27,5 @@
             <p>Laissez-nous un message via le formulaire de contact ou directement via nos réseaux sociaux.</p>
             <li><a href="http://localhost/la_grande_armoire/contact">Formulaire <i class="fa-solid fa-chevron-right"></i></a></li>
         </nav>
-
-        <nav>
-            <h4>newsletter</h4>
-            <p>Inscrivez-vous à notre newsletter pour connaitre en exclusivité toute les nouveauté de La Grande Armoire.</p>
-            <div class="container-newsletter">
-                <form class="newsletter">
-                    <input type="radio" id="Mme" name="newsletter" value="Mme" checked>
-                    <label for="Mme">Mme</label>
-                    <input type="radio" id="M." name="newsletter" value="M." checked>
-                    <label for="M.">M.</label>
-                </form>
-            </div>
-        </nav>
     </div>
 </div>
