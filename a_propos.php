@@ -66,8 +66,8 @@
                 <article class="articles">
                     <div>
                         <img src="./img/img_astuces.png" alt="nos astuces">
-                        <h2>Nos astuces pour restorer vos pièces</h2>
-                        <p>Les pièces de luxe, des articles de légende, intemporel et indémodable, qui doivent être continuellement préservé. Cuir, dain, toile, fourrures, découvrez nos astuce pour prendre soin de vos pièces dans le temps.</p>
+                        <h2>Nos astuces pour restaurer vos pièces</h2>
+                        <p>Les pièces de luxe, des articles de légende, intemporels et indémodables, qui doivent être continuellement préservés. Cuir, daim, toile, fourrure, découvrez nos astuce pour prendre soin de vos pièces dans le temps.</p>
                     </div>
                     <p class="date">Juin. 15, 2023</p>
                 </article>
@@ -75,7 +75,7 @@
                     <div>
                         <img src="./img/mode_durable.png" alt="mode durable">
                         <h2>La mode durable</h2>
-                        <p>La durable mode, phénomène mondial qui perdure depusi plsusieurs année ne cesse de se developper. La mode durable, une conséquence de la prise de conscience généralisée du profond impact environnemental de nos vêtements.. Mais pourquoi consommer durable ?</p>
+                        <p>La durable mode, phénomène mondial qui perdure depuis plusieurs années ne cesse de se developper. La mode durable, une conséquence de la prise de conscience généralisée du profond impact environnemental de nos vêtements.. Mais pourquoi consommer durable ?</p>
                     </div>
                     <p class="date">Juin. 5, 2023</p>
                 </article>
@@ -83,7 +83,7 @@
                     <div>
                         <img src="./img/tendances.png" alt="tendances">
                         <h2>Les tendances mode de 2023</h2>
-                        <p>La durable mode, phénomène mondial qui perdure depusi plsusieurs année ne cesse de se developper. La mode durable, une conséquence de la prise de conscience généralisée du profond impact environnemental de nos vêtements.. Mais pourquoi consommer durable ?</p>
+                        <p>La durable mode, phénomène mondial qui perdure depuis plusieurs années ne cesse de se developper. La mode durable, une conséquence de la prise de conscience généralisée du profond impact environnemental de nos vêtements.. Mais pourquoi consommer durable ?</p>
                     </div>
                     <p class="date">Mai. 28, 2023</p>
                 </article>

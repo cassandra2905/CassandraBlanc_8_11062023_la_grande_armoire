@@ -14,7 +14,7 @@
                 <li><a href="http://localhost/la_grande_armoire/a_propos">A propos</a></li>
                 <li><a href="http://localhost/la_grande_armoire/contact">Contact</a></li>
                 <?php if (!empty($_SESSION['user'])) { ?>
-                    <li><a href="http://localhost/la_grande_armoire/form/disconnect.php">Déconnexion</a></li>
+                    <li><a href="http://localhost/la_grande_armoire/form/disconnect.php">Deconnexion</a></li>
                     <li><a href="#" class="msgLogged"><?= $_SESSION['user']['prenom']; ?> (<?= $_SESSION['user']['statut'] ?>)</a></li>
                 <?php } else { ?>
                     <li><a href="http://localhost/la_grande_armoire/creer_compte">Connexion</a></li>

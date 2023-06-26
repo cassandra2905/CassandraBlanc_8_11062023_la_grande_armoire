@@ -116,7 +116,7 @@
     const formInscription = document.getElementById('create-an-account');
     const formConnexion = document.getElementById('connexion');
 
-    // Animation javascrip pour cacher/afficher les formulaires
+    // Animation javascript pour cacher/afficher les formulaires
     function afficherConnexion() {
         formInscription.style.display = 'none';
         formConnexion.style.display = 'block';
